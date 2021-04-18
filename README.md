@@ -1,5 +1,5 @@
 <h1 align="center">
-  Untyped Blog
+  Gatsby Blog Foundation
 </h1>
 
-This project is based in Gatsby's blog starter and slightly modified to add TailwindCSS and other stuff.
+Based on starter-blog
