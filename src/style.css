@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&family=Roboto+Slab:ital,wght@0,300;0,500;1,300&display=swap");
+
+@layer components {
+  .font-roboto {
+    font-family: "Roboto Slab", sans-serif;
+  }
+
+  .font-noto {
+    font-family: "Noto Sans JP", sans-serif;
+  }
+}
+
+@layer base {
+  body {
+    @apply font-light font-roboto;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply mt-4 mb-1 font-bold font-noto;
+  }
+
+  h1 {
+    @apply text-4xl mt-4 mb-4;
+  }
+
+  h2 {
+    @apply text-2xl mt-4 mb-1;
+  }
+
+  h3 {
+    @apply text-xl;
+  }
+
+  h4 {
+    @apply text-lg;
+  }
+
+  article > section > p {
+    @apply mt-1 mb-5;
+  }
+
+  article > section > ul {
+    @apply list-disc ml-5 mb-4;
+  }
+
+  blockquote {
+    @apply pl-4 border-l-4 -ml-4 my-4 text-lg italic;
+  }
+}
