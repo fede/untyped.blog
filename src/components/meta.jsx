@@ -17,7 +17,7 @@
        }
      `
    )
-const site = {}
+   
    const metaDescription = description || site.siteMetadata.description
    const defaultTitle = `${site.siteMetadata?.title}.${site.siteMetadata.titleSpan}`
  
